@@ -1,0 +1,468 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ga",
+				"game_data"
+			],
+			[
+				"box_",
+				"box_scores"
+			],
+			[
+				"STG",
+				"STGcalc"
+			],
+			[
+				"se",
+				"Separator	class"
+			],
+			[
+				"s",
+				"sqrt	function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1150,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "rawdata/2006-Hortons.txt",
+			"settings":
+			{
+				"buffer_size": 153961,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "basicExtractCurling.py",
+			"settings":
+			{
+				"buffer_size": 1071,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "package",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"re.I",
+			"help(re.I)",
+			"import re",
+			"os.chdir(\"/home/mikemoran/Research/Code/STG-Preferred\")",
+			"import STG-Preferred",
+			"from . import stg",
+			"import .",
+			"import stg",
+			"python3 stg.py",
+			"./stg.py",
+			"os.getcwd()",
+			"os.chdir(\"/home/mikemoran/Research/Code/STG-Preferred\")",
+			"os.chdir(\"/home/mikemoran/Research/STG-Preferred\")",
+			"os.chdir(\"~/Research/STG-Preferred\")",
+			"os.getcwd()",
+			"os.path.realpath(__file__)",
+			"os.path.realpath()",
+			"os.path.dirname(\".\")",
+			"os.path",
+			"help(os)",
+			"os.pwd()",
+			"import os",
+			"import stg",
+			"stg.tuneSTG()",
+			"print(\"HELLO\")",
+			"ls",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/mikemoran/bin/CCA",
+		"/home/mikemoran/bin/CCA/rawdata"
+	],
+	"file_history":
+	[
+		"/home/mikemoran/bin/CCA/rawdata/2014-Scotties.txt",
+		"/home/mikemoran/CCA/rawdata/2006-Hortons.txt",
+		"/home/mikemoran/CCA/INFO.md",
+		"/home/mikemoran/CCA/curling.sublime-project",
+		"/home/mikemoran/Data/data/2013Scotties.txt",
+		"/home/mikemoran/Data/basicExtractCurling.py",
+		"/home/mikemoran/Data/data/2014Scotties.txt",
+		"/home/mikemoran/Data/include/game.py",
+		"/home/mikemoran/Data/include/player.py",
+		"/home/mikemoran/bin/essentials/colors-ls",
+		"/home/mikemoran/Data/parseCurling.py",
+		"/home/mikemoran/Data/data/gameTest.txt",
+		"/home/mikemoran/bin/python/CodeEval/easy/distance.py3",
+		"/home/mikemoran/Data/preprocessFile.py",
+		"/home/mikemoran/Data/INFO.md",
+		"/home/mikemoran/bin/python/CodeEval/easy/multiplyLists.py3",
+		"/home/mikemoran/Research/Code/WienFilter/include/helpers/../powerStatus.py",
+		"/home/mikemoran/Research/Code/WienFilter/include/readback.py",
+		"/home/mikemoran/Research/Code/WF-tempStorage/include/helpers/readback.py",
+		"/home/mikemoran/Research/Code/WienFilter/tests/testDisplay.py",
+		"/home/mikemoran/Research/Code/WienFilter/include/model.py",
+		"/home/mikemoran/Research/Code/WienFilter/include/controller.py",
+		"/home/mikemoran/Research/Code/WienFilter/wf.sublime-project",
+		"/home/mikemoran/Research/Code/WienFilter/include/helpers/readback.py",
+		"/home/mikemoran/Research/Code/WienFilter/include/helpers/powerStatus.py",
+		"/home/mikemoran/Research/Code/WienFilter/include/helpers/bar.py",
+		"/home/mikemoran/Research/Code/WienFilter/share/../powerStatus.py",
+		"/home/mikemoran/Research/Code/WienFilter/include/helpers/__init__.py",
+		"/home/mikemoran/Research/Code/WienFilter/wf.py",
+		"/home/mikemoran/Research/Code/WienFilter/README.md",
+		"/home/mikemoran/Research/Code/WienFilter/include/suppydisplay.py",
+		"/home/mikemoran/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/mikemoran/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/mikemoran/.config/sublime-text-3/Packages/User/Python.sublime-settings",
+		"/home/mikemoran/Research/Code/WienFilter/share/../tests/testWF.py",
+		"/home/mikemoran/Research/Code/WienFilter/__init__.py",
+		"/home/mikemoran/Research/Code/WienFilter/tests/__init__.py",
+		"/home/mikemoran/Research/Code/WienFilter/testDisplay.py",
+		"/home/mikemoran/Research/Code/WienFilter/include/bar.py",
+		"/home/mikemoran/Research/Code/WienFilter/TODO.md",
+		"/home/mikemoran/Research/Code/WienFilter/include/display.py",
+		"/home/mikemoran/bin/python/cursesExample.py",
+		"/home/mikemoran/bin/python/cursesExample_better.py",
+		"/home/mikemoran/Research/Code/WienFilter/share/config.py",
+		"/home/mikemoran/Research/Code/WienFilter/share/testWF.py",
+		"/home/mikemoran/Research/Code/WienFilter/testServer.py",
+		"/home/mikemoran/Research/Code/WienFilter/share/testconfig.py",
+		"/home/mikemoran/Research/Code/WienFilter/include/__init__.py",
+		"/home/mikemoran/Research/Code/WienFilter/share/server-dummy.py",
+		"/opt/glances/glances/plugins/glances_quicklook.py",
+		"/home/mikemoran/Research/Code/WienFilter/include/display_old.py",
+		"/home/mikemoran/Research/Code/WienFilter/test.py",
+		"/opt/glances/glances/plugins/glances_plugin.py",
+		"/home/mikemoran/.config/sublime-text-3/Packages/Python 3/Gloom.tmTheme",
+		"/home/mikemoran/Research/Code/WienFilter/glances_bars.py",
+		"/opt/glances/glances/outputs/glances_curses.py",
+		"/home/mikemoran/Research/Code/WienFilter/include/display_cc.py",
+		"/opt/colorconsole/samples/example2.py",
+		"/opt/glances/glances/core/glances_timer.py",
+		"/home/mikemoran/Research/Code/WienFilter/share/commands.py",
+		"/home/mikemoran/Research/Code/WienFilter/include/monitor.py",
+		"/opt/glances/glances/plugins/glances_monitor.py",
+		"/home/mikemoran/bin/python/cursesTest.py",
+		"/opt/glances/glances/outputs/glances_colorconsole.py",
+		"/home/mikemoran/Research/Code/wienFilter/share/configDummy.py",
+		"/home/mikemoran/Research/Code/wienFilter/configDummy.py",
+		"/home/mikemoran/Research/Code/wienFilter/share/server-dummy.py",
+		"/home/mikemoran/Research/Code/wienFilter/tcpInteract.py",
+		"/home/mikemoran/Research/Code/wienFilter/README.md",
+		"/home/mikemoran/Research/Code/wienFilter/share/config.py",
+		"/home/mikemoran/Research/Code/wienFilter/share/commands.py",
+		"/home/mikemoran/Research/Code/wienFilter/.gitignore",
+		"/home/mikemoran/Research/Code/wienFilter/share/__init__.py"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\n\\n",
+			"@",
+			"setpoints",
+			"\"Neg\"",
+			"\"Pos\"",
+			"output",
+			"sys",
+			"\\.data",
+			".data",
+			"curse_add",
+			"\"{}{}{}\".",
+			"Textbox",
+			"keys",
+			"view",
+			"colum",
+			"#!/"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1148,
+								1148
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "rawdata/2006-Hortons.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 153961,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 58568.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "basicExtractCurling.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1071,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								410,
+								410
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
+	"project": "curling.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"research/st",
+				"Research/StGEORGE/STG-Preferred/stgtune.py"
+			],
+			[
+				"pass",
+				".vim/backup/passTriangle.py3~"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Research/Code/NMRpy-GitHub/nmrpy.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 174.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
