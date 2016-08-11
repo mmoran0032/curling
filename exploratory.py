@@ -11,6 +11,7 @@
     from an arbitrary tournamentId, associationId, and drawNumber.
 '''
 
+
 import re
 
 from bs4 import BeautifulSoup
