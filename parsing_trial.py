@@ -109,6 +109,10 @@ for game in box_scores:
     t0_agg['game-type'] = draw
     t1_agg['game-type'] = draw
 
+    # need to remember to mark who won the game...
+    t0_agg['won'] = True if final_score[0] > final_score[1] else False
+    t1_agg['won'] = True if final_score[1] > final_score[0] else False
+
     tourney_data.append([t0_agg, t1_agg])
 
 print(tourney_data)
