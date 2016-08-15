@@ -1,19 +1,41 @@
 Curling Results Analysis
 ========================
 
-Looking at curling box scores available from the World Curling Federation's
-`Results and Statistics <results.worldcurling.org>`__ website.
+Analyzing the outcomes of World Curling Federation tournaments available from
+their `Results and Statistics website <results.worldcurling.org>`__. Requires
+`requests <http://docs.python-requests.org/en/master/>`__ and
+`beautifulsoup4 <https://www.crummy.com/software/BeautifulSoup/>`__.
 
-Currently, I am waiting to hear back about the RESTful access to the website,
-so for now I am using ``requests`` and ``bs4`` (beautiful soup) to pull game
-data. This is also my first real use of these two libraries, so there will be a
-lot of learning going into it.
+I would like to determine if the outcomes of the bracket play in curling events
+can be determined by the results of the preliminary round-robin play *without*
+using player, team, or country modifiers (so predicting Canada to win every
+time doesn't count). This analysis focuses on "macro"-strategy, so the final
+results of each end, instead of shot selection, accuracy, and ice condition
+considerations, for its model features.
 
-During my exploratory search (``exploratory.ipynb``), I noticed that I *could*
-get the game information somewhat RESTfully without too much issue. So far, I
-haven't gone too far into it, but that could easily turn into a bootstrapped
-API for accessing the game data, including building up the "name to tourney
-number" part.
+Primary analysis is forthcoming.
 
-For now, I'm going to keep working on extracting raw data rom the site to build
-up a database of score information for an ML algorithm.
+
+API
+---
+
+I've written a basic API to pull the box score data from the WCF: ``wcf.py``.
+Right now, it's a basic loading and converting API for just the box scores, so
+I lose or don't pull information about the specific players on the team, the
+location or venue, the dates it was played, or even the gender of the athletes.
+I will have to pull that stuff eventually (into ``wcf.Tournament``), but for
+now raw numbers seem OK. The others may require another round of exploration.
+
+Usage is simple::
+
+    import wcf
+    t = wcf.Tournament(tournamentID)
+    t.load_all_games()
+
+    final = t.games[-1]
+    print(final.teams[final.winner])
+
+From this starting point, a lot of the "business logic" that I put into the
+previous two notebooks/scripts is within this module. The aggregate data part
+is still another layer on top of the access, but this should help for batch
+processing.
