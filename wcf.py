@@ -106,6 +106,15 @@ class BoxScore:
         else:
             return self._reformat_group(data)
 
+    def _reformat_end_scores(self):
+        new_ends = []
+        for row in self.ends:
+            scores = row.find_all('td', 'game-end10')
+            scores = self._reformat_group(
+                scores, convert=int, remove='X', keep_size=False)
+            new_ends.append(scores)
+        return new_ends
+
     def _reformat_group(self, data, convert=None, remove=None, keep_size=True):
         data = [d.text.strip() for d in data]
         if remove:
@@ -115,15 +124,6 @@ class BoxScore:
         elif convert and not keep_size:
             data = [convert(d) for d in data if d is not '']
         return data
-
-    def _reformat_end_scores(self):
-        new_ends = []
-        for row in self.ends:
-            scores = row.find_all('td', 'game-end10')
-            scores = self._reformat_group(
-                scores, convert=int, remove='X', keep_size=False)
-            new_ends.append(scores)
-        return new_ends
 
     def _determine_winner(self):
         self.winner = self.final.index(max(self.final))
