@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 
 from wcf import BoxScore
 
-with open('./tests/test_game.html', 'r') as f:
+with open('test_game.html', 'r') as f:
     test_game_text = f.read()
 test_game = BeautifulSoup(test_game_text, 'html.parser')
 
