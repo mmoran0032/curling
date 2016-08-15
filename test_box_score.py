@@ -9,7 +9,7 @@ from wcf import BoxScore
 
 
 # use the final game from tourney 555 for testing
-with open('test_game.html', 'r') as f:
+with open('game.html', 'r') as f:
     test_game_text = f.read()
 test_game = BeautifulSoup(test_game_text, 'html.parser')
 
