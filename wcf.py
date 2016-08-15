@@ -61,7 +61,6 @@ class BoxScore:
     '''
     def __init__(self, raw_box_score):
         self.raw = raw_box_score
-        self.ends = []
 
     def __str__(self):
         try:
@@ -75,29 +74,56 @@ class BoxScore:
 
     def extract_data(self):
         ''' Converts raw data into correctly-typed attributes.'''
-        self._pull_basic_data()
-        self._pull_end_scores()
-        self.winner = self.final.index(max(self.final))
+        self._pull_data()
+        self._reformat_data()
+        self._determine_winner()
 
-    def _pull_basic_data(self):
-        self.draw = self.raw.find('th', class_='game-header').text.strip()
-        self.sheet = self.raw.find('td', class_='game-sheet').text.strip()
-        self.teams = self._pull_and_reformat(self.raw, 'game-team')
-        self.hammer = self._pull_and_reformat(self.raw, 'game-hammer')
-        self.final = self._pull_and_reformat(self.raw, 'game-total', int)
+    def _pull_data(self):
+        self.draw = self._pull_info('th', 'game-header', single=True)
+        self.sheet = self._pull_info('td', 'game-sheet', single=True)
+        self.teams = self._pull_info('td', 'game-team')
+        self.lsfe = self._pull_info('td', 'game-hammer')
+        self.final = self._pull_info('td', 'game-total')
+        self.ends = self._pull_info('tr', None)
 
-    def _pull_end_scores(self):
-        rows = self.raw.find_all('tr', class_=None)
-        for row in rows:
-            scores = self._pull_and_reformat(
-                row, 'game-end10', converter=int, remove='X')
-            self.ends.append(scores)
+    def _pull_info(self, tag, class_, single=False):
+        if single:
+            return self.raw.find(tag, class_=class_)
+        else:
+            return self.raw.find_all(tag, class_=class_)
 
-    def _pull_and_reformat(self, raw, class_, converter=None, remove=None):
-        data = raw.find_all('td', class_=class_)
+    def _reformat_data(self):
+        self.draw = self._reformat(self.draw, single=True)
+        self.sheet = self._reformat(self.sheet, single=True)
+        self.teams = self._reformat(self.teams)
+        self.lsfe = self._reformat(self.lsfe, convert=bool)
+        self.final = self._reformat(self.final, converter=int)
+        self.ends = self._reformat_end_scores()
+
+    def _reformat(self, data, single=False, **kargs):
+        if single:
+            return data.text.strip()
+        else:
+            return self._reformat_group(data)
+
+    def _reformat_group(self, data, convert=None, remove=None, keep_size=True):
         data = [d.text.strip() for d in data]
         if remove:
             data = [d.replace(remove, '') for d in data]
-        if converter:
-            data = [converter(d) for d in data if d is not '']
+        if convert and keep_size:
+            data = [convert(d) for d in data]
+        elif convert and not keep_size:
+            data = [convert(d) for d in data if d is not '']
         return data
+
+    def _reformat_end_scores(self):
+        new_ends = []
+        for row in self.ends:
+            scores = row.find_all('td', 'game-end10')
+            scores = self._reformat_group(
+                scores, convert=int, remove='X', keep_size=False)
+            new_ends.append(scores)
+        return new_ends
+
+    def _determine_winner(self):
+        self.winner = self.final.index(max(self.final))
