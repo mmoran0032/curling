@@ -1,3 +1,18 @@
+''' wcf.py -- pull and convert raw data from the WCF
+
+    Provides an easy way to pull data from the WCF's results page and convert
+    the raw HTML information into usable python structures and datatypes. A
+    Tournament holds multiple BoxScores, and BoxScores contain the important
+    game information (teams, LSFE, final score, etc.).
+
+    Example usage:
+        t = Tournament(555)
+        t.load_all_games()
+        # check winner of the final
+        final = t.games[-1]
+        winner = final.winner  # 0 or 1
+        final.teams[winner]
+'''
 
 
 from bs4 import BeautifulSoup
@@ -5,7 +20,7 @@ import requests
 
 
 class Tournament:
-    ''' Tournament - holds all important data for a single WCF tournament
+    ''' Tournament -- holds all important data for a single WCF tournament
 
         Data is loaded from the WCF results site, and may be either
         automatically parsed using the methods within BoxScore or after the
@@ -13,10 +28,10 @@ class Tournament:
     '''
     def __init__(self, id):
         self.id = id
-        self.box_scores = []
+        self.games = []
 
     def __str__(self):
-        return 'WCF Tournament {} ({})'.format(self.id, len(self.box_scores))
+        return 'WCF Tournament {} ({})'.format(self.id, len(self.games))
 
     def load_all_games(self):
         ''' Pulls all data from the default WCF results page and saves each
@@ -27,6 +42,7 @@ class Tournament:
         self._convert_box_scores(_box_scores)
 
     def _load_tourney_data(self):
+        print('pulling data from results.worldcurling.org...')
         params = {'tournamentId': self.id, 'associationId': 0, 'drawNumber': 0}
         site = r'http://results.worldcurling.org/Championship/DisplayResults'
         r = requests.get(site, params=params)
@@ -41,7 +57,7 @@ class Tournament:
         for game in raw_box:
             game_box = BoxScore(game)
             game_box.extract_data()
-            self.box_scores.append(game_box)
+            self.games.append(game_box)
 
     @property
     def id(self):
@@ -55,7 +71,7 @@ class Tournament:
 
 
 class BoxScore:
-    ''' BoxScore - holds all important data for a single game
+    ''' BoxScore -- holds all important data for a single game
 
         Raw data from the WCF is split and parsed into usable values.
     '''
@@ -65,25 +81,26 @@ class BoxScore:
     def __str__(self):
         try:
             return '{} {} {} {}\n{} {} {} {}\nDraw {} Sheet {}'.format(
-                self.teams[0], self.hammer[0], self.ends[0], self.final[0],
-                self.teams[1], self.hammer[1], self.ends[1], self.final[1],
+                self.teams[0], self.lsfe[0], self.ends[0], self.total[0],
+                self.teams[1], self.lsfe[1], self.ends[1], self.total[1],
                 self.draw, self.sheet
             )
         except:
-            return 'Box Score {}'.format(repr(self.raw))
+            return 'Box Score {}'.format(self.raw)
 
     def extract_data(self):
         ''' Converts raw data into correctly-typed attributes.'''
         self._pull_data()
         self._reformat_data()
         self._determine_winner()
+        del self.raw
 
     def _pull_data(self):
         self.draw = self._pull_info('th', 'game-header', single=True)
         self.sheet = self._pull_info('td', 'game-sheet', single=True)
         self.teams = self._pull_info('td', 'game-team')
         self.lsfe = self._pull_info('td', 'game-hammer')
-        self.final = self._pull_info('td', 'game-total')
+        self.total = self._pull_info('td', 'game-total')
         self.ends = self._pull_info('tr', None)
 
     def _pull_info(self, tag, class_, single=False):
@@ -97,14 +114,14 @@ class BoxScore:
         self.sheet = self._reformat(self.sheet, single=True)
         self.teams = self._reformat(self.teams)
         self.lsfe = self._reformat(self.lsfe, convert=bool)
-        self.final = self._reformat(self.final, converter=int)
+        self.total = self._reformat(self.total, convert=int)
         self.ends = self._reformat_end_scores()
 
-    def _reformat(self, data, single=False, **kargs):
+    def _reformat(self, data, single=False, **kwargs):
         if single:
             return data.text.strip()
         else:
-            return self._reformat_group(data)
+            return self._reformat_group(data, **kwargs)
 
     def _reformat_end_scores(self):
         new_ends = []
@@ -126,4 +143,4 @@ class BoxScore:
         return data
 
     def _determine_winner(self):
-        self.winner = self.final.index(max(self.final))
+        self.winner = self.total.index(max(self.total))
