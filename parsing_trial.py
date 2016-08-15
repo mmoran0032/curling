@@ -115,4 +115,7 @@ for game in box_scores:
 
     tourney_data.append([t0_agg, t1_agg])
 
-print(tourney_data)
+for game in tourney_data:
+    for team in game:
+        print(team)
+    print('---')
