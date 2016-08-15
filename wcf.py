@@ -86,7 +86,7 @@ class BoxScore:
                 self.draw, self.sheet
             )
         except:
-            return 'Box Score {}'.format(self.raw)
+            return 'Box Score ({}...)'.format(repr(self.raw)[:20])
 
     def extract_data(self):
         ''' Converts raw data into correctly-typed attributes.'''
