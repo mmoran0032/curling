@@ -24,7 +24,7 @@ class Tournament:
 
         Data is loaded from the WCF results site, and may be either
         automatically parsed using the methods within BoxScore or after the
-        fact. Raw box score data is stored in self.box_scores.
+        fact. Raw box score data is stored in self.games.
     '''
     def __init__(self, id):
         self.id = id
@@ -35,7 +35,7 @@ class Tournament:
 
     def load_all_games(self):
         ''' Pulls all data from the default WCF results page and saves each
-            game as a BoxScores object in self.box_scores
+            game as a BoxScores object in self.games
         '''
         _r = self._load_tourney_data()
         _box_scores = self._load_box_scores(_r)
