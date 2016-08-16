@@ -30,8 +30,7 @@ class TestBoxScore(unittest.TestCase):
         h = self.b._pull_info('td', 'game-team')
         self.assertEqual(len(h), 2)
         h = [s.text.strip() for s in h]
-        self.assertIn('Canada', h)
-        self.assertIn('Denmark', h)
+        self.assertEqual(h, ['Denmark', 'Canada'])
 
     def test_winner(self):
         self.b.extract_data()
@@ -50,12 +49,13 @@ class TestBoxScore(unittest.TestCase):
         data = self.b._reformat_group(data)
         self.assertEqual(len(data), 3)
         self.assertIsInstance(data, list)
-        self.assertEqual('1', data[0])
+        self.assertEqual(['1', '2', '3'], data)
 
     def test_reformat_convert(self):
         data = self.build_data()
         data = self.b._reformat_group(data, convert=int)
         self.assertIsInstance(data[0], int)
+        self.assertEqual([1, 2, 3], data)
 
     def build_data(self):
         data = BeautifulSoup('<a>1</a><a>2</a><a>3</a>', 'html.parser')
