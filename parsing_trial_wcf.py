@@ -57,6 +57,7 @@ def get_aggregate(game, types):
         data['team-name'] = team
         data['game-type'] = game.draw
         aggregate.append(data)
+    aggregate[game.winner]['won'] = True
     return aggregate
 
 
@@ -65,10 +66,10 @@ def get_team_aggregate(ends, types):
     data = {'blank': 0, 'blank-with-hammer': 0, 'steal': 0,
             'score-with-hammer': 0, 'score-2+-with-hammer': 0,
             'team-name': '', 'total-ends': len(ends),
-            'total-score': 0, 'stolen-points': 0}
+            'total-score': 0, 'stolen-points': 0, 'won': False}
     for points, type in zip(ends, types):
-        data[type] += 1
         data['total-score'] += points
+        data[type] += 1
         if type == 'steal':
             data['stolen-points'] += points
         elif type == 'score-with-hammer' and points >= 2:

@@ -119,6 +119,3 @@ for game in tourney_data:
     for team in game:
         print(team)
     print('---')
-
-for game in tourney_data:
-    print(game[0]['game-type'], game[1]['game-type'])
