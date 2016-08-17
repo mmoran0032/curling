@@ -80,10 +80,10 @@ class BoxScore:
 
     def __str__(self):
         try:
-            return '{} {} {} {}\n{} {} {} {}\nDraw {} Sheet {}'.format(
-                self.teams[0], self.lsfe[0], self.ends[0], self.total[0],
-                self.teams[1], self.lsfe[1], self.ends[1], self.total[1],
-                self.draw, self.sheet
+            return '{} {} {}\n{} {} {}\nDraw {}, Sheet {}, LSFE {}'.format(
+                self.teams[0], self.ends[0], self.total[0],
+                self.teams[1], self.ends[1], self.total[1],
+                self.draw, self.sheet, self.teams[self.lsfe]
             )
         except:
             return 'Box Score ({}...)'.format(repr(self.raw)[:20])
@@ -113,7 +113,7 @@ class BoxScore:
         self.draw = self._reformat(self.draw, single=True)
         self.sheet = self._reformat(self.sheet, single=True)
         self.teams = self._reformat(self.teams)
-        self.lsfe = self._reformat(self.lsfe, convert=bool)
+        self.lsfe = self._reformat_lsfe()
         self.total = self._reformat(self.total, convert=int)
         self.ends = self._reformat_end_scores()
 
@@ -123,23 +123,25 @@ class BoxScore:
         else:
             return self._reformat_group(data, **kwargs)
 
+    def _reformat_lsfe(self):
+        lsfe = self._reformat_group(self.lsfe)
+        return lsfe.index('*')
+
     def _reformat_end_scores(self):
         new_ends = []
         for row in self.ends:
             scores = row.find_all('td', 'game-end10')
             scores = self._reformat_group(
-                scores, convert=int, remove='X', keep_size=False)
+                scores, convert=int, remove='X')
             new_ends.append(scores)
         return new_ends
 
-    def _reformat_group(self, data, convert=None, remove=None, keep_size=True):
+    def _reformat_group(self, data, convert=None, remove=None):
         data = [d.text.strip() for d in data]
         if remove:
             data = [d.replace(remove, '') for d in data]
-        if convert and keep_size:
-            data = [convert(d) for d in data]
-        elif convert and not keep_size:
-            data = [convert(d) for d in data if d is not '']
+        if convert:
+            data = [convert(d) for d in data if d]
         return data
 
     def _determine_winner(self):

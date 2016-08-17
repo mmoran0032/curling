@@ -36,6 +36,10 @@ class TestBoxScore(unittest.TestCase):
         self.b.extract_data()
         self.assertEqual(self.b.winner, 1)
 
+    def test_lsfe(self):
+        self.b.extract_data()
+        self.assertEqual(self.b.lsfe, 1)
+
     def test_end_reformat(self):
         self.b.ends = self.b._pull_info('tr', None)
         self.b.ends = self.b._reformat_end_scores()
