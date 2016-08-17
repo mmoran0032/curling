@@ -62,6 +62,7 @@ def get_aggregate(game, types):
 
 
 def get_team_aggregate(ends, types):
+    ''' Builds a dict with "meta-data" about the game for a single team.'''
     assert len(ends) == len(types)
     data = {'blank': 0, 'blank-with-hammer': 0, 'steal': 0,
             'score-with-hammer': 0, 'score-2+-with-hammer': 0,
