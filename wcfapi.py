@@ -26,3 +26,11 @@ class WCF:
                           data=self.credentials)
         assert r.status_code == 200
         self.token = r.text.replace('"', '')
+
+    def get_people(self, surname=None, details=None):
+        surname = surname if surname else 'none'
+        details = details if details else 'none'
+        r = requests.get('{}People'.format(self.base),
+                         headers={'Authorize': self.token},
+                         params={'surname': surname, 'details': details})
+        assert r.status_code == 200
