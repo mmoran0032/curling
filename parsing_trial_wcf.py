@@ -82,7 +82,7 @@ t = wcf.Tournament(555)
 t.load_all_games()
 
 t_data = []
-for game in t.games:  # TODO: make wcf.Tournament an __iter__
+for game in t:
     types = determine_end_types(game)
     meta = get_aggregate(game, types)
     t_data.append(meta)

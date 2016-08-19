@@ -33,6 +33,10 @@ class Tournament:
     def __str__(self):
         return 'WCF Tournament {} ({})'.format(self.id, len(self.games))
 
+    def __iter__(self):
+        for game in self.games:
+            yield game
+
     def load_all_games(self):
         ''' Pulls all data from the default WCF results page and saves each
             game as a BoxScores object in self.games
