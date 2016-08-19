@@ -7,6 +7,8 @@
 '''
 
 
+import json
+
 import requests
 
 
@@ -15,12 +17,12 @@ class WCF:
         self.base = r'http://resultsapi.azurewebsites.net/api/'
 
     def load_user(self):
-        self.username = ''
-        self.password = ''
+        with open('credentials.json', 'r') as f:
+            self.credentials = json.load(f)
+        return self  # to chain load_user().connect()
 
     def connect(self):
         r = requests.post('{}Authorize'.format(self.base),
-                          data={'Username': self.username,
-                                'Password': self.password})
+                          data=self.credentials)
         assert r.status_code == 200
         self.token = r.text.replace('"', '')

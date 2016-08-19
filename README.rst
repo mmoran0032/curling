@@ -16,6 +16,29 @@ considerations, for its model features.
 Primary analysis is forthcoming.
 
 
+Official API
+------------
+
+Official access to the WCF's results database must be obtained prior to using
+the official API to access the information. Access follows standard REST
+conventions. I am implementing this access method in ``wcfapi.py``, which only
+requires the user to obtain a username and password from the WCF to proceed.
+
+Once you have access, create a ``credentials.json`` file in the same directory
+you are working in as follows::
+
+    {
+        "Username": "user.me",
+        "Password": "something+else"
+    }
+
+Basic usage is as follows::
+
+    from wcfapi import WCF
+    t = WCF()
+    t.load_user().connect()
+
+
 API
 ---
 
