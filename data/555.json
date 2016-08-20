@@ -1,0 +1,1990 @@
+[
+    [
+        {
+            "game-type": "Draw #1",
+            "total-ends": 10,
+            "stolen-points": 3,
+            "won": true,
+            "blank": 4,
+            "total-score": 8,
+            "team-name": "Sweden",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 2,
+            "steal": 2,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Draw #1",
+            "total-ends": 10,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 6,
+            "total-score": 5,
+            "team-name": "Japan",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 3
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #1",
+            "total-ends": 8,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 6,
+            "total-score": 3,
+            "team-name": "Korea",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 1,
+            "steal": 0,
+            "score-with-hammer": 2
+        },
+        {
+            "game-type": "Draw #1",
+            "total-ends": 8,
+            "stolen-points": 3,
+            "won": true,
+            "blank": 2,
+            "total-score": 9,
+            "team-name": "Scotland",
+            "blank-with-hammer": 2,
+            "score-2+-with-hammer": 3,
+            "steal": 1,
+            "score-with-hammer": 3
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #1",
+            "total-ends": 8,
+            "stolen-points": 3,
+            "won": true,
+            "blank": 2,
+            "total-score": 11,
+            "team-name": "Norway",
+            "blank-with-hammer": 2,
+            "score-2+-with-hammer": 3,
+            "steal": 1,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Draw #1",
+            "total-ends": 8,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 6,
+            "total-score": 3,
+            "team-name": "Russia",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 1,
+            "steal": 0,
+            "score-with-hammer": 2
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #1",
+            "total-ends": 8,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 5,
+            "total-score": 2,
+            "team-name": "Germany",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 0,
+            "steal": 0,
+            "score-with-hammer": 2
+        },
+        {
+            "game-type": "Draw #1",
+            "total-ends": 8,
+            "stolen-points": 3,
+            "won": true,
+            "blank": 3,
+            "total-score": 8,
+            "team-name": "Switzerland",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 3,
+            "score-with-hammer": 2
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #2",
+            "total-ends": 11,
+            "stolen-points": 1,
+            "won": true,
+            "blank": 6,
+            "total-score": 9,
+            "team-name": "Russia",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 3,
+            "steal": 1,
+            "score-with-hammer": 4
+        },
+        {
+            "game-type": "Draw #2",
+            "total-ends": 11,
+            "stolen-points": 1,
+            "won": false,
+            "blank": 5,
+            "total-score": 8,
+            "team-name": "Korea",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 3,
+            "steal": 1,
+            "score-with-hammer": 4
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #2",
+            "total-ends": 8,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 5,
+            "total-score": 1,
+            "team-name": "United States of America",
+            "blank-with-hammer": 2,
+            "score-2+-with-hammer": 0,
+            "steal": 0,
+            "score-with-hammer": 1
+        },
+        {
+            "game-type": "Draw #2",
+            "total-ends": 8,
+            "stolen-points": 4,
+            "won": true,
+            "blank": 3,
+            "total-score": 7,
+            "team-name": "Denmark",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 1,
+            "steal": 3,
+            "score-with-hammer": 2
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #2",
+            "total-ends": 9,
+            "stolen-points": 1,
+            "won": true,
+            "blank": 4,
+            "total-score": 7,
+            "team-name": "Canada",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 1,
+            "steal": 1,
+            "score-with-hammer": 4
+        },
+        {
+            "game-type": "Draw #2",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 5,
+            "total-score": 3,
+            "team-name": "Finland",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 0,
+            "steal": 0,
+            "score-with-hammer": 3
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #2",
+            "total-ends": 10,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 5,
+            "total-score": 3,
+            "team-name": "Norway",
+            "blank-with-hammer": 3,
+            "score-2+-with-hammer": 1,
+            "steal": 0,
+            "score-with-hammer": 2
+        },
+        {
+            "game-type": "Draw #2",
+            "total-ends": 10,
+            "stolen-points": 3,
+            "won": true,
+            "blank": 5,
+            "total-score": 6,
+            "team-name": "Scotland",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 1,
+            "steal": 3,
+            "score-with-hammer": 2
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #3",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 5,
+            "total-score": 5,
+            "team-name": "Switzerland",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Draw #3",
+            "total-ends": 9,
+            "stolen-points": 3,
+            "won": true,
+            "blank": 4,
+            "total-score": 9,
+            "team-name": "Sweden",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 2,
+            "score-with-hammer": 3
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #3",
+            "total-ends": 8,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 4,
+            "total-score": 3,
+            "team-name": "Germany",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 0,
+            "steal": 0,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Draw #3",
+            "total-ends": 8,
+            "stolen-points": 4,
+            "won": true,
+            "blank": 4,
+            "total-score": 8,
+            "team-name": "Japan",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 1,
+            "steal": 2,
+            "score-with-hammer": 2
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #4",
+            "total-ends": 11,
+            "stolen-points": 1,
+            "won": false,
+            "blank": 6,
+            "total-score": 8,
+            "team-name": "Denmark",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 1,
+            "score-with-hammer": 4
+        },
+        {
+            "game-type": "Draw #4",
+            "total-ends": 11,
+            "stolen-points": 3,
+            "won": true,
+            "blank": 5,
+            "total-score": 11,
+            "team-name": "Canada",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 3,
+            "steal": 2,
+            "score-with-hammer": 4
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #4",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 5,
+            "total-score": 6,
+            "team-name": "Scotland",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 1,
+            "steal": 0,
+            "score-with-hammer": 4
+        },
+        {
+            "game-type": "Draw #4",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": true,
+            "blank": 4,
+            "total-score": 9,
+            "team-name": "Russia",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 4
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #4",
+            "total-ends": 10,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 5,
+            "total-score": 6,
+            "team-name": "Korea",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 4
+        },
+        {
+            "game-type": "Draw #4",
+            "total-ends": 10,
+            "stolen-points": 1,
+            "won": true,
+            "blank": 5,
+            "total-score": 9,
+            "team-name": "Norway",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 1,
+            "score-with-hammer": 4
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #4",
+            "total-ends": 10,
+            "stolen-points": 0,
+            "won": true,
+            "blank": 4,
+            "total-score": 7,
+            "team-name": "United States of America",
+            "blank-with-hammer": 2,
+            "score-2+-with-hammer": 3,
+            "steal": 0,
+            "score-with-hammer": 4
+        },
+        {
+            "game-type": "Draw #4",
+            "total-ends": 10,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 6,
+            "total-score": 5,
+            "team-name": "Finland",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 1,
+            "steal": 0,
+            "score-with-hammer": 4
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #5",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": true,
+            "blank": 4,
+            "total-score": 9,
+            "team-name": "Japan",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 3,
+            "steal": 0,
+            "score-with-hammer": 4
+        },
+        {
+            "game-type": "Draw #5",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 5,
+            "total-score": 6,
+            "team-name": "Switzerland",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 4
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #5",
+            "total-ends": 11,
+            "stolen-points": 1,
+            "won": true,
+            "blank": 5,
+            "total-score": 10,
+            "team-name": "Canada",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 4,
+            "steal": 1,
+            "score-with-hammer": 5
+        },
+        {
+            "game-type": "Draw #5",
+            "total-ends": 11,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 6,
+            "total-score": 9,
+            "team-name": "United States of America",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 4,
+            "steal": 0,
+            "score-with-hammer": 4
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #5",
+            "total-ends": 7,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 5,
+            "total-score": 2,
+            "team-name": "Finland",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 0,
+            "steal": 0,
+            "score-with-hammer": 2
+        },
+        {
+            "game-type": "Draw #5",
+            "total-ends": 7,
+            "stolen-points": 1,
+            "won": true,
+            "blank": 2,
+            "total-score": 9,
+            "team-name": "Denmark",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 3,
+            "steal": 1,
+            "score-with-hammer": 3
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #5",
+            "total-ends": 9,
+            "stolen-points": 2,
+            "won": true,
+            "blank": 3,
+            "total-score": 8,
+            "team-name": "Sweden",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 2,
+            "steal": 1,
+            "score-with-hammer": 4
+        },
+        {
+            "game-type": "Draw #5",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 6,
+            "total-score": 4,
+            "team-name": "Germany",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 1,
+            "steal": 0,
+            "score-with-hammer": 3
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #6",
+            "total-ends": 6,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 4,
+            "total-score": 2,
+            "team-name": "Germany",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 0,
+            "steal": 0,
+            "score-with-hammer": 2
+        },
+        {
+            "game-type": "Draw #6",
+            "total-ends": 6,
+            "stolen-points": 4,
+            "won": true,
+            "blank": 2,
+            "total-score": 8,
+            "team-name": "Norway",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 2,
+            "score-with-hammer": 2
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #6",
+            "total-ends": 6,
+            "stolen-points": 2,
+            "won": true,
+            "blank": 2,
+            "total-score": 12,
+            "team-name": "Switzerland",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 3,
+            "steal": 1,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Draw #6",
+            "total-ends": 6,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 4,
+            "total-score": 4,
+            "team-name": "Korea",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 2
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #6",
+            "total-ends": 11,
+            "stolen-points": 1,
+            "won": true,
+            "blank": 3,
+            "total-score": 4,
+            "team-name": "Sweden",
+            "blank-with-hammer": 4,
+            "score-2+-with-hammer": 0,
+            "steal": 1,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Draw #6",
+            "total-ends": 11,
+            "stolen-points": 1,
+            "won": false,
+            "blank": 8,
+            "total-score": 3,
+            "team-name": "Russia",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 0,
+            "steal": 1,
+            "score-with-hammer": 2
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #6",
+            "total-ends": 10,
+            "stolen-points": 3,
+            "won": true,
+            "blank": 5,
+            "total-score": 6,
+            "team-name": "Japan",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 1,
+            "steal": 2,
+            "score-with-hammer": 2
+        },
+        {
+            "game-type": "Draw #6",
+            "total-ends": 10,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 5,
+            "total-score": 5,
+            "team-name": "Scotland",
+            "blank-with-hammer": 3,
+            "score-2+-with-hammer": 1,
+            "steal": 0,
+            "score-with-hammer": 2
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #7",
+            "total-ends": 10,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 6,
+            "total-score": 4,
+            "team-name": "Korea",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 1,
+            "steal": 0,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Draw #7",
+            "total-ends": 10,
+            "stolen-points": 2,
+            "won": true,
+            "blank": 4,
+            "total-score": 6,
+            "team-name": "Finland",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 0,
+            "steal": 2,
+            "score-with-hammer": 4
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #7",
+            "total-ends": 10,
+            "stolen-points": 0,
+            "won": true,
+            "blank": 4,
+            "total-score": 8,
+            "team-name": "Norway",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 5
+        },
+        {
+            "game-type": "Draw #7",
+            "total-ends": 10,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 6,
+            "total-score": 6,
+            "team-name": "Denmark",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 4
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #7",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 7,
+            "total-score": 3,
+            "team-name": "Scotland",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 1,
+            "steal": 0,
+            "score-with-hammer": 2
+        },
+        {
+            "game-type": "Draw #7",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": true,
+            "blank": 2,
+            "total-score": 5,
+            "team-name": "Canada",
+            "blank-with-hammer": 4,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 3
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #7",
+            "total-ends": 9,
+            "stolen-points": 1,
+            "won": false,
+            "blank": 5,
+            "total-score": 6,
+            "team-name": "Russia",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 1,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Draw #7",
+            "total-ends": 9,
+            "stolen-points": 2,
+            "won": true,
+            "blank": 4,
+            "total-score": 9,
+            "team-name": "United States of America",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 3,
+            "steal": 1,
+            "score-with-hammer": 4
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #8",
+            "total-ends": 6,
+            "stolen-points": 0,
+            "won": true,
+            "blank": 3,
+            "total-score": 8,
+            "team-name": "United States of America",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Draw #8",
+            "total-ends": 6,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 3,
+            "total-score": 3,
+            "team-name": "Sweden",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 0,
+            "steal": 0,
+            "score-with-hammer": 3
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #8",
+            "total-ends": 6,
+            "stolen-points": 8,
+            "won": true,
+            "blank": 1,
+            "total-score": 9,
+            "team-name": "Canada",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 0,
+            "steal": 3,
+            "score-with-hammer": 1
+        },
+        {
+            "game-type": "Draw #8",
+            "total-ends": 6,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 5,
+            "total-score": 2,
+            "team-name": "Japan",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 1,
+            "steal": 0,
+            "score-with-hammer": 1
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #8",
+            "total-ends": 7,
+            "stolen-points": 4,
+            "won": true,
+            "blank": 1,
+            "total-score": 9,
+            "team-name": "Denmark",
+            "blank-with-hammer": 2,
+            "score-2+-with-hammer": 2,
+            "steal": 2,
+            "score-with-hammer": 2
+        },
+        {
+            "game-type": "Draw #8",
+            "total-ends": 7,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 6,
+            "total-score": 1,
+            "team-name": "Germany",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 0,
+            "steal": 0,
+            "score-with-hammer": 1
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #8",
+            "total-ends": 10,
+            "stolen-points": 6,
+            "won": true,
+            "blank": 3,
+            "total-score": 12,
+            "team-name": "Finland",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 3,
+            "score-with-hammer": 4
+        },
+        {
+            "game-type": "Draw #8",
+            "total-ends": 10,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 7,
+            "total-score": 6,
+            "team-name": "Switzerland",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 3
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #9",
+            "total-ends": 10,
+            "stolen-points": 2,
+            "won": true,
+            "blank": 4,
+            "total-score": 7,
+            "team-name": "Denmark",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 1,
+            "steal": 2,
+            "score-with-hammer": 4
+        },
+        {
+            "game-type": "Draw #9",
+            "total-ends": 10,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 6,
+            "total-score": 5,
+            "team-name": "Japan",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 3
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #9",
+            "total-ends": 9,
+            "stolen-points": 2,
+            "won": true,
+            "blank": 3,
+            "total-score": 8,
+            "team-name": "Finland",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 1,
+            "steal": 2,
+            "score-with-hammer": 4
+        },
+        {
+            "game-type": "Draw #9",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 6,
+            "total-score": 6,
+            "team-name": "Sweden",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 3
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #9",
+            "total-ends": 9,
+            "stolen-points": 1,
+            "won": true,
+            "blank": 4,
+            "total-score": 9,
+            "team-name": "United States of America",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 4,
+            "steal": 1,
+            "score-with-hammer": 4
+        },
+        {
+            "game-type": "Draw #9",
+            "total-ends": 9,
+            "stolen-points": 2,
+            "won": false,
+            "blank": 5,
+            "total-score": 7,
+            "team-name": "Switzerland",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 1,
+            "score-with-hammer": 3
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #9",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": true,
+            "blank": 3,
+            "total-score": 6,
+            "team-name": "Canada",
+            "blank-with-hammer": 3,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Draw #9",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 6,
+            "total-score": 3,
+            "team-name": "Germany",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 1,
+            "steal": 0,
+            "score-with-hammer": 2
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #10",
+            "total-ends": 11,
+            "stolen-points": 0,
+            "won": true,
+            "blank": 4,
+            "total-score": 5,
+            "team-name": "Switzerland",
+            "blank-with-hammer": 4,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Draw #10",
+            "total-ends": 11,
+            "stolen-points": 1,
+            "won": false,
+            "blank": 7,
+            "total-score": 4,
+            "team-name": "Scotland",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 1,
+            "steal": 1,
+            "score-with-hammer": 2
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #10",
+            "total-ends": 8,
+            "stolen-points": 3,
+            "won": true,
+            "blank": 3,
+            "total-score": 7,
+            "team-name": "Germany",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 1,
+            "steal": 3,
+            "score-with-hammer": 2
+        },
+        {
+            "game-type": "Draw #10",
+            "total-ends": 8,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 5,
+            "total-score": 2,
+            "team-name": "Russia",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 0,
+            "steal": 0,
+            "score-with-hammer": 2
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #10",
+            "total-ends": 9,
+            "stolen-points": 1,
+            "won": true,
+            "blank": 3,
+            "total-score": 6,
+            "team-name": "Japan",
+            "blank-with-hammer": 2,
+            "score-2+-with-hammer": 2,
+            "steal": 1,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Draw #10",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 6,
+            "total-score": 3,
+            "team-name": "Korea",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 1,
+            "steal": 0,
+            "score-with-hammer": 2
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #10",
+            "total-ends": 9,
+            "stolen-points": 1,
+            "won": false,
+            "blank": 6,
+            "total-score": 4,
+            "team-name": "Sweden",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 1,
+            "steal": 1,
+            "score-with-hammer": 2
+        },
+        {
+            "game-type": "Draw #10",
+            "total-ends": 9,
+            "stolen-points": 2,
+            "won": true,
+            "blank": 3,
+            "total-score": 6,
+            "team-name": "Norway",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 1,
+            "steal": 2,
+            "score-with-hammer": 3
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #11",
+            "total-ends": 8,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 4,
+            "total-score": 2,
+            "team-name": "Russia",
+            "blank-with-hammer": 2,
+            "score-2+-with-hammer": 0,
+            "steal": 0,
+            "score-with-hammer": 2
+        },
+        {
+            "game-type": "Draw #11",
+            "total-ends": 8,
+            "stolen-points": 1,
+            "won": true,
+            "blank": 4,
+            "total-score": 7,
+            "team-name": "Canada",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 1,
+            "score-with-hammer": 3
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #11",
+            "total-ends": 11,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 6,
+            "total-score": 7,
+            "team-name": "Scotland",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 3,
+            "steal": 0,
+            "score-with-hammer": 4
+        },
+        {
+            "game-type": "Draw #11",
+            "total-ends": 11,
+            "stolen-points": 0,
+            "won": true,
+            "blank": 5,
+            "total-score": 9,
+            "team-name": "United States of America",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 4,
+            "steal": 0,
+            "score-with-hammer": 5
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #11",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": true,
+            "blank": 5,
+            "total-score": 7,
+            "team-name": "Norway",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 4
+        },
+        {
+            "game-type": "Draw #11",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 4,
+            "total-score": 5,
+            "team-name": "Finland",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 1,
+            "steal": 0,
+            "score-with-hammer": 4
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #11",
+            "total-ends": 10,
+            "stolen-points": 2,
+            "won": true,
+            "blank": 5,
+            "total-score": 8,
+            "team-name": "Korea",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 1,
+            "score-with-hammer": 4
+        },
+        {
+            "game-type": "Draw #11",
+            "total-ends": 10,
+            "stolen-points": 1,
+            "won": false,
+            "blank": 5,
+            "total-score": 5,
+            "team-name": "Denmark",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 1,
+            "steal": 1,
+            "score-with-hammer": 3
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #12",
+            "total-ends": 8,
+            "stolen-points": 2,
+            "won": false,
+            "blank": 6,
+            "total-score": 3,
+            "team-name": "Norway",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 0,
+            "steal": 1,
+            "score-with-hammer": 1
+        },
+        {
+            "game-type": "Draw #12",
+            "total-ends": 8,
+            "stolen-points": 5,
+            "won": true,
+            "blank": 2,
+            "total-score": 8,
+            "team-name": "United States of America",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 1,
+            "steal": 4,
+            "score-with-hammer": 2
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #12",
+            "total-ends": 7,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 5,
+            "total-score": 2,
+            "team-name": "Korea",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 0,
+            "steal": 0,
+            "score-with-hammer": 2
+        },
+        {
+            "game-type": "Draw #12",
+            "total-ends": 7,
+            "stolen-points": 3,
+            "won": true,
+            "blank": 2,
+            "total-score": 9,
+            "team-name": "Canada",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 3,
+            "score-with-hammer": 2
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #12",
+            "total-ends": 6,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 4,
+            "total-score": 1,
+            "team-name": "Russia",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 0,
+            "steal": 0,
+            "score-with-hammer": 1
+        },
+        {
+            "game-type": "Draw #12",
+            "total-ends": 6,
+            "stolen-points": 4,
+            "won": true,
+            "blank": 2,
+            "total-score": 9,
+            "team-name": "Denmark",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 2,
+            "steal": 1,
+            "score-with-hammer": 2
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #12",
+            "total-ends": 8,
+            "stolen-points": 1,
+            "won": true,
+            "blank": 3,
+            "total-score": 7,
+            "team-name": "Scotland",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 2,
+            "steal": 1,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Draw #12",
+            "total-ends": 8,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 5,
+            "total-score": 3,
+            "team-name": "Finland",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 1,
+            "steal": 0,
+            "score-with-hammer": 2
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #13",
+            "total-ends": 6,
+            "stolen-points": 5,
+            "won": true,
+            "blank": 2,
+            "total-score": 9,
+            "team-name": "Finland",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 1,
+            "steal": 3,
+            "score-with-hammer": 1
+        },
+        {
+            "game-type": "Draw #13",
+            "total-ends": 6,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 4,
+            "total-score": 1,
+            "team-name": "Germany",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 0,
+            "steal": 0,
+            "score-with-hammer": 1
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #13",
+            "total-ends": 11,
+            "stolen-points": 1,
+            "won": true,
+            "blank": 6,
+            "total-score": 7,
+            "team-name": "Denmark",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 1,
+            "score-with-hammer": 4
+        },
+        {
+            "game-type": "Draw #13",
+            "total-ends": 11,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 5,
+            "total-score": 6,
+            "team-name": "Switzerland",
+            "blank-with-hammer": 2,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 4
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #13",
+            "total-ends": 11,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 3,
+            "total-score": 3,
+            "team-name": "Canada",
+            "blank-with-hammer": 5,
+            "score-2+-with-hammer": 0,
+            "steal": 0,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Draw #13",
+            "total-ends": 11,
+            "stolen-points": 0,
+            "won": true,
+            "blank": 8,
+            "total-score": 4,
+            "team-name": "Sweden",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 1,
+            "steal": 0,
+            "score-with-hammer": 3
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #13",
+            "total-ends": 10,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 6,
+            "total-score": 7,
+            "team-name": "United States of America",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 3,
+            "steal": 0,
+            "score-with-hammer": 4
+        },
+        {
+            "game-type": "Draw #13",
+            "total-ends": 10,
+            "stolen-points": 0,
+            "won": true,
+            "blank": 4,
+            "total-score": 8,
+            "team-name": "Japan",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 3,
+            "steal": 0,
+            "score-with-hammer": 5
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #14",
+            "total-ends": 9,
+            "stolen-points": 2,
+            "won": true,
+            "blank": 4,
+            "total-score": 7,
+            "team-name": "Sweden",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 1,
+            "steal": 1,
+            "score-with-hammer": 4
+        },
+        {
+            "game-type": "Draw #14",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 5,
+            "total-score": 4,
+            "team-name": "Korea",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 1,
+            "steal": 0,
+            "score-with-hammer": 3
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #14",
+            "total-ends": 10,
+            "stolen-points": 1,
+            "won": true,
+            "blank": 5,
+            "total-score": 6,
+            "team-name": "Japan",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 2,
+            "steal": 1,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Draw #14",
+            "total-ends": 10,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 5,
+            "total-score": 4,
+            "team-name": "Norway",
+            "blank-with-hammer": 2,
+            "score-2+-with-hammer": 1,
+            "steal": 0,
+            "score-with-hammer": 3
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #14",
+            "total-ends": 11,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 7,
+            "total-score": 6,
+            "team-name": "Germany",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Draw #14",
+            "total-ends": 11,
+            "stolen-points": 1,
+            "won": true,
+            "blank": 4,
+            "total-score": 7,
+            "team-name": "Scotland",
+            "blank-with-hammer": 2,
+            "score-2+-with-hammer": 2,
+            "steal": 1,
+            "score-with-hammer": 4
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #14",
+            "total-ends": 9,
+            "stolen-points": 2,
+            "won": true,
+            "blank": 3,
+            "total-score": 6,
+            "team-name": "Switzerland",
+            "blank-with-hammer": 2,
+            "score-2+-with-hammer": 1,
+            "steal": 1,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Draw #14",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 6,
+            "total-score": 3,
+            "team-name": "Russia",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 0,
+            "steal": 0,
+            "score-with-hammer": 3
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #15",
+            "total-ends": 11,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 7,
+            "total-score": 6,
+            "team-name": "Scotland",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Draw #15",
+            "total-ends": 11,
+            "stolen-points": 1,
+            "won": true,
+            "blank": 4,
+            "total-score": 7,
+            "team-name": "Denmark",
+            "blank-with-hammer": 2,
+            "score-2+-with-hammer": 2,
+            "steal": 1,
+            "score-with-hammer": 4
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #15",
+            "total-ends": 8,
+            "stolen-points": 1,
+            "won": false,
+            "blank": 5,
+            "total-score": 3,
+            "team-name": "Russia",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 0,
+            "steal": 1,
+            "score-with-hammer": 2
+        },
+        {
+            "game-type": "Draw #15",
+            "total-ends": 8,
+            "stolen-points": 2,
+            "won": true,
+            "blank": 3,
+            "total-score": 9,
+            "team-name": "Finland",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 3,
+            "steal": 1,
+            "score-with-hammer": 3
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #15",
+            "total-ends": 10,
+            "stolen-points": 1,
+            "won": false,
+            "blank": 6,
+            "total-score": 6,
+            "team-name": "Korea",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 1,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Draw #15",
+            "total-ends": 10,
+            "stolen-points": 2,
+            "won": true,
+            "blank": 4,
+            "total-score": 8,
+            "team-name": "United States of America",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 2,
+            "score-with-hammer": 4
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #15",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 6,
+            "total-score": 4,
+            "team-name": "Norway",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 1,
+            "steal": 0,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Draw #15",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": true,
+            "blank": 3,
+            "total-score": 6,
+            "team-name": "Canada",
+            "blank-with-hammer": 2,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 4
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #16",
+            "total-ends": 6,
+            "stolen-points": 3,
+            "won": true,
+            "blank": 2,
+            "total-score": 7,
+            "team-name": "Japan",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 2,
+            "score-with-hammer": 2
+        },
+        {
+            "game-type": "Draw #16",
+            "total-ends": 6,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 4,
+            "total-score": 2,
+            "team-name": "Russia",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 0,
+            "steal": 0,
+            "score-with-hammer": 2
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #16",
+            "total-ends": 10,
+            "stolen-points": 1,
+            "won": false,
+            "blank": 6,
+            "total-score": 4,
+            "team-name": "Sweden",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 1,
+            "steal": 1,
+            "score-with-hammer": 2
+        },
+        {
+            "game-type": "Draw #16",
+            "total-ends": 10,
+            "stolen-points": 0,
+            "won": true,
+            "blank": 4,
+            "total-score": 6,
+            "team-name": "Scotland",
+            "blank-with-hammer": 3,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 3
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #16",
+            "total-ends": 10,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 7,
+            "total-score": 4,
+            "team-name": "Switzerland",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 1,
+            "steal": 0,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Draw #16",
+            "total-ends": 10,
+            "stolen-points": 2,
+            "won": true,
+            "blank": 3,
+            "total-score": 7,
+            "team-name": "Norway",
+            "blank-with-hammer": 2,
+            "score-2+-with-hammer": 1,
+            "steal": 1,
+            "score-with-hammer": 4
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #16",
+            "total-ends": 10,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 6,
+            "total-score": 6,
+            "team-name": "Germany",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 4
+        },
+        {
+            "game-type": "Draw #16",
+            "total-ends": 10,
+            "stolen-points": 0,
+            "won": true,
+            "blank": 4,
+            "total-score": 9,
+            "team-name": "Korea",
+            "blank-with-hammer": 2,
+            "score-2+-with-hammer": 3,
+            "steal": 0,
+            "score-with-hammer": 4
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #17",
+            "total-ends": 9,
+            "stolen-points": 1,
+            "won": true,
+            "blank": 4,
+            "total-score": 8,
+            "team-name": "Canada",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 3,
+            "steal": 1,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Draw #17",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 5,
+            "total-score": 2,
+            "team-name": "Switzerland",
+            "blank-with-hammer": 2,
+            "score-2+-with-hammer": 0,
+            "steal": 0,
+            "score-with-hammer": 2
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #17",
+            "total-ends": 10,
+            "stolen-points": 1,
+            "won": true,
+            "blank": 4,
+            "total-score": 6,
+            "team-name": "United States of America",
+            "blank-with-hammer": 2,
+            "score-2+-with-hammer": 2,
+            "steal": 1,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Draw #17",
+            "total-ends": 10,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 6,
+            "total-score": 5,
+            "team-name": "Germany",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 3
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #17",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 4,
+            "total-score": 5,
+            "team-name": "Finland",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 1,
+            "steal": 0,
+            "score-with-hammer": 4
+        },
+        {
+            "game-type": "Draw #17",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": true,
+            "blank": 5,
+            "total-score": 7,
+            "team-name": "Japan",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 4
+        }
+    ],
+    [
+        {
+            "game-type": "Draw #17",
+            "total-ends": 10,
+            "stolen-points": 0,
+            "won": true,
+            "blank": 5,
+            "total-score": 8,
+            "team-name": "Denmark",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 3,
+            "steal": 0,
+            "score-with-hammer": 5
+        },
+        {
+            "game-type": "Draw #17",
+            "total-ends": 10,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 5,
+            "total-score": 7,
+            "team-name": "Sweden",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 5
+        }
+    ],
+    [
+        {
+            "game-type": "Play-off 1/2",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": true,
+            "blank": 5,
+            "total-score": 5,
+            "team-name": "Canada",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 1,
+            "steal": 0,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Play-off 1/2",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 4,
+            "total-score": 3,
+            "team-name": "Denmark",
+            "blank-with-hammer": 2,
+            "score-2+-with-hammer": 0,
+            "steal": 0,
+            "score-with-hammer": 3
+        }
+    ],
+    [
+        {
+            "game-type": "Play-off 3/4",
+            "total-ends": 10,
+            "stolen-points": 2,
+            "won": false,
+            "blank": 6,
+            "total-score": 4,
+            "team-name": "Japan",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 0,
+            "steal": 2,
+            "score-with-hammer": 2
+        },
+        {
+            "game-type": "Play-off 3/4",
+            "total-ends": 10,
+            "stolen-points": 1,
+            "won": true,
+            "blank": 4,
+            "total-score": 5,
+            "team-name": "United States of America",
+            "blank-with-hammer": 3,
+            "score-2+-with-hammer": 1,
+            "steal": 1,
+            "score-with-hammer": 2
+        }
+    ],
+    [
+        {
+            "game-type": "Semifinals",
+            "total-ends": 8,
+            "stolen-points": 3,
+            "won": true,
+            "blank": 4,
+            "total-score": 9,
+            "team-name": "Denmark",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 2,
+            "steal": 1,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Semifinals",
+            "total-ends": 8,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 4,
+            "total-score": 3,
+            "team-name": "United States of America",
+            "blank-with-hammer": 2,
+            "score-2+-with-hammer": 1,
+            "steal": 0,
+            "score-with-hammer": 2
+        }
+    ],
+    [
+        {
+            "game-type": "Bronze game",
+            "total-ends": 10,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 6,
+            "total-score": 6,
+            "team-name": "Japan",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 3,
+            "steal": 0,
+            "score-with-hammer": 3
+        },
+        {
+            "game-type": "Bronze game",
+            "total-ends": 10,
+            "stolen-points": 2,
+            "won": true,
+            "blank": 4,
+            "total-score": 8,
+            "team-name": "United States of America",
+            "blank-with-hammer": 0,
+            "score-2+-with-hammer": 1,
+            "steal": 2,
+            "score-with-hammer": 4
+        }
+    ],
+    [
+        {
+            "game-type": "Final",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": false,
+            "blank": 6,
+            "total-score": 3,
+            "team-name": "Denmark",
+            "blank-with-hammer": 1,
+            "score-2+-with-hammer": 1,
+            "steal": 0,
+            "score-with-hammer": 2
+        },
+        {
+            "game-type": "Final",
+            "total-ends": 9,
+            "stolen-points": 0,
+            "won": true,
+            "blank": 3,
+            "total-score": 5,
+            "team-name": "Canada",
+            "blank-with-hammer": 3,
+            "score-2+-with-hammer": 2,
+            "steal": 0,
+            "score-with-hammer": 3
+        }
+    ]
+]

@@ -42,6 +42,9 @@ class Tournament:
         for game in self.games:
             yield game
 
+    def __len__(self):
+        return len(self.games)
+
     def load_all_games(self):
         ''' Pulls all data from the default WCF results page and saves each
             game as a BoxScores object in self.games
