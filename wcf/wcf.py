@@ -12,14 +12,16 @@
         final = t.games[-1]
         winner = final.winner  # 0 or 1
         final.teams[winner]
+
+    TODO:
+        processing games as a generator
+        adjust pulling and formatting data
+        dump/load data from json file
 '''
 
 
 from bs4 import BeautifulSoup
 import requests
-
-
-__all__ = ['Tournament', 'BoxScore']
 
 
 class Tournament:
