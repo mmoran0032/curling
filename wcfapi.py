@@ -40,7 +40,15 @@ class WCF:
         return r.json()
 
     def get_draws_by_tournament(self, id):
-        r = requests.get('{}/Draws/Tournament/{}'.format(self.base, id),
+        r = requests.get('{}/Games'.format(self.base),
+                         params={'tournamentId': id},
+                         headers={'Authorize': self.token},
+                         timeout=self.timeout)
+        assert r.status_code == requests.codes.ok
+        return r.json()
+
+    def get_fact(self):
+        r = requests.get('{}/Facts'.format(self.base),
                          headers={'Authorize': self.token},
                          timeout=self.timeout)
         assert r.status_code == requests.codes.ok

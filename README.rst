@@ -38,6 +38,12 @@ Basic usage is as follows::
     t = WCF()
     t.load_user().connect()
 
+So, after exploring the official API, the only additional functionality I get
+is accessing the accuracy of the teams within the individual games...which I
+can pull from my homebrewed API in a similar fashion. The official API access
+also *cannot* give individual end information, so it is inherently *worse* for
+what I need it to do.
+
 
 API
 ---
