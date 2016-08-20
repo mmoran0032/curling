@@ -25,7 +25,7 @@ class WCF:
         r = requests.post('{}Authorize'.format(self.base),
                           data=self.credentials)
         assert r.status_code == 200
-        self.token = r.text.replace('"', '')
+        self.token = r.json()
 
     def get_people(self, surname=None, details=None):
         surname = surname if surname else 'none'
