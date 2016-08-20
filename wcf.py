@@ -19,6 +19,9 @@ from bs4 import BeautifulSoup
 import requests
 
 
+__all__ = ['Tournament', 'BoxScore']
+
+
 class Tournament:
     ''' Tournament -- holds all important data for a single WCF tournament
 

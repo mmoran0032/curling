@@ -9,7 +9,7 @@ from wcf import BoxScore
 
 
 # use the final game from tourney 555 for testing
-with open('game.html', 'r') as f:
+with open('tests/game.html', 'r') as f:
     test_game_text = f.read()
 test_game = BeautifulSoup(test_game_text, 'html.parser')
 
@@ -33,8 +33,9 @@ class TestBoxScore(unittest.TestCase):
         self.assertEqual(h, ['Denmark', 'Canada'])
 
     def test_winner(self):
-        self.b.extract_data()
-        self.assertEqual(self.b.winner, 1)
+        self.b.total = [1, 0]
+        self.b._determine_winner()
+        self.assertEqual(self.b.winner, 0)
 
     def test_lsfe(self):
         self.b.extract_data()
