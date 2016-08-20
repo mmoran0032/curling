@@ -53,7 +53,7 @@ class Tournament:
         params = {'tournamentId': self.id, 'associationId': 0, 'drawNumber': 0}
         site = r'http://results.worldcurling.org/Championship/DisplayResults'
         r = requests.get(site, params=params)
-        assert r.status_code == 200
+        assert r.status_code == requests.codes.ok
         return r
 
     def _load_box_scores(self, r):

@@ -14,7 +14,7 @@ import requests
 
 class WCF:
     def __init__(self):
-        self.base = r'http://resultsapi.azurewebsites.net/api/'
+        self.base = r'http://resultsapi.azurewebsites.net/api'
 
     def load_user(self):
         with open('credentials.json', 'r') as f:
@@ -22,15 +22,22 @@ class WCF:
         return self  # to chain load_user().connect()
 
     def connect(self):
-        r = requests.post('{}Authorize'.format(self.base),
+        r = requests.post('{}/Authorize'.format(self.base),
                           data=self.credentials)
-        assert r.status_code == 200
+        assert r.status_code == requests.codes.ok
         self.token = r.json()
 
     def get_people(self, surname=None, details=None):
         surname = surname if surname else 'none'
         details = details if details else 'none'
-        r = requests.get('{}People'.format(self.base),
+        r = requests.get('{}/People'.format(self.base),
                          headers={'Authorize': self.token},
                          params={'surname': surname, 'details': details})
-        assert r.status_code == 200
+        assert r.status_code == requests.codes.ok
+        return r.json()
+
+    def get_draws_by_tournament(self, id):
+        r = requests.get('{}/Draws/Tournament/{}'.format(self.base, id),
+                         headers={'Authorize': self.token})
+        assert r.status_code == requests.codes.ok
+        return r.json()
