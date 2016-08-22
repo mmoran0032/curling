@@ -10,72 +10,7 @@
 
 import wcf
 
-
-def determine_end_types(game):
-    hammer = game.lsfe
-    end_types = []
-    for end in zip(*game.ends):
-        types, hammer = determine_single_end(end, hammer)
-        end_types.append(types)
-    return [t for t in zip(*end_types)]
-
-
-def determine_single_end(end, hammer):
-    types = determine_types(end, hammer)
-    new_hammer = update_hammer(end)
-    new_hammer = new_hammer if new_hammer is not None else hammer
-    return types, new_hammer
-
-
-def determine_types(end, hammer):
-    ''' Find curling outcome from a single end.'''
-    if end[0] > 0 and hammer == 0:
-        return 'score-with-hammer', 'blank'
-    elif end[1] > 0 and hammer == 1:
-        return 'blank', 'score-with-hammer'
-    elif end[0] > 0 and hammer == 1:
-        return 'steal', 'blank'
-    elif end[1] > 0 and hammer == 0:
-        return 'blank', 'steal'
-    elif end[0] == end[1] == 0 and hammer == 0:
-        return 'blank-with-hammer', 'blank'
-    elif end[0] == end[1] == 0 and hammer == 1:
-        return 'blank', 'blank-with-hammer'
-
-
-def update_hammer(end):
-    if end[0] > 0:
-        return 1
-    elif end[1] > 0:
-        return 0
-
-
-def get_aggregate(game, types):
-    aggregate = []
-    for team_ends, team_types, team in zip(game.ends, types, game.teams):
-        data = get_team_aggregate(team_ends, team_types)
-        data['team-name'] = team
-        data['game-type'] = game.draw
-        aggregate.append(data)
-    aggregate[game.winner]['won'] = True
-    return aggregate
-
-
-def get_team_aggregate(ends, types):
-    ''' Builds a dict with "meta-data" about the game for a single team.'''
-    assert len(ends) == len(types)
-    data = {'blank': 0, 'blank-with-hammer': 0, 'steal': 0,
-            'score-with-hammer': 0, 'score-2+-with-hammer': 0,
-            'team-name': '', 'total-ends': len(ends),
-            'total-score': 0, 'stolen-points': 0, 'won': False}
-    for points, type in zip(ends, types):
-        data['total-score'] += points
-        data[type] += 1
-        if type == 'steal':
-            data['stolen-points'] += points
-        elif type == 'score-with-hammer' and points >= 2:
-            data['score-2+-with-hammer'] += 1
-    return data
+from analyze import determine_end_types, get_aggregate
 
 
 t = wcf.Tournament(555)
