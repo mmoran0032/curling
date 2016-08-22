@@ -8,7 +8,7 @@
 '''
 
 
-from wcf import wcf
+import wcf
 
 
 def determine_end_types(game):
