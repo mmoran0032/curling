@@ -11,7 +11,7 @@ def determine_end_types(game):
     for end in zip(*game.ends):
         types, hammer = _determine_single_end(end, hammer)
         end_types.append(types)
-    return [t for t in zip(*end_types)]
+    return list(zip(*end_types))
 
 
 def _determine_single_end(end, hammer):

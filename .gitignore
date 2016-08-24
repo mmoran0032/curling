@@ -1,4 +1,5 @@
 .ipynb_checkpoints
 .coverage
 credentials.json
-data/*.json
+data/*
+asides/*
