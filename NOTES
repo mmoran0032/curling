@@ -1,0 +1,15 @@
+Pull data using `get_draws_by_tournament`
+
+Important information:
+- LSFE: 'TossWinner'
+- Ends: 'Ends'
+    - list of ends, important information:
+        - 'EndNumber'
+        - 'Team1', 'Team2' gives scores per team
+- Playoffs?: 'PlayoffGameNumber' is not None
+- Team information: 'Team1', 'Team2'
+    - 'Percentage'
+    - 'Result'
+    - 'Team': important information:
+        - 'AssociationId', 'Code', 'Name'
+
