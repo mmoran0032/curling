@@ -13,3 +13,50 @@ Important information:
     - 'Team': important information:
         - 'AssociationId', 'Code', 'Name'
 
+PLAN:
+- I can use Tournaments/Type/{value} to pull all of the tournaments of a
+  specific type, or at least get the basic details from those tournaments
+  (location, year, name, class (1 or 2), etc)
+  - For example, the 2016 Men's Championship is (with less relevant data
+    removed for simplicity):
+
+  {'Arena': 'St Jakobshalle',
+  ...
+  'City': 'BASEL',
+  'Class': {'Id': 1, 'Name': 'Men'},
+  ...
+  'Country': {'AssociationId': 11,
+              'Code': 'SUI',
+              ...,
+              'Name': 'Switzerland',
+              'OfficialName': 'Swiss Curling Association',
+              'StartDate': '1966-01-01T00:00:00'},
+  'EndDate': '2016-04-10T00:00:00',
+  'GameEnds': 10,
+  'Games': None,
+  'Id': 555,
+  ...
+  'Name': "World Men's Curling Championship 2016",
+  ...
+  'PlayOffModelId': 1,
+  ...
+  'StartDate': '2016-04-02T00:00:00',
+  'Teams': None,
+  'TimeZone': 0,
+  'Type': {'Code': 'WCC  ',
+           'Ends': 10,
+           ...
+           'Name': 'World Curling Championships',
+           'SortOrder': 20,
+           'Type': 1,
+           'ZoneType': 2},
+  'WebPage': '',
+  'Year': 2016}
+
+- The dates are important, because pulling Type 1 gives back future events,
+  plus I can use the dates to separate out events into separate seasons, so
+  I will probably need the full date
+
+- To start, let's just try to predict the World Curling Championships, since
+  the teams should be roughly of the same calibre and the format is pretty
+  standard (as far as I know), so Type 1 it is!
