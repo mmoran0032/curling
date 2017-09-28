@@ -1,24 +1,27 @@
 #!/usr/bin/env python3
 
 
-import os
 import json
-
-from progressbar import ProgressBar
+from pathlib import Path
 
 import wcf
 
 
-db_conn = wcf.WCF(connect=True)
+print(f'WCF API version {wcf.__version__}')
+conn = wcf.API('../credentials/wcf.json', timeout=15).connect()
 
-tournaments = db_conn.get_tournaments_by_type(1)  # World Curling Championships
+# NOTE: IDs before 190 may not be reliable
+print('Getting tournament IDs')
+tournaments = conn.get_tournaments_by_type(1)  # World Curling Championships
+# tournaments = conn.get_tournaments_by_type(4)  # Olympic Games
 tourney_ids = [t['Id'] for t in tournaments]
+print(len(tourney_ids))
 
-print('Pulling game data...')
-progress = ProgressBar()
 # over WiFi at home, next part takes about a minute
-for id in progress(tourney_ids):
-    if not os.path.isfile('data/raw/{:03d}.json'.format(id)):
-        data = db_conn.get_draws_by_tournament(id)
-        with open('data/raw/{:03d}.json'.format(id), 'w') as f:
+for id_ in tourney_ids:
+    path = Path(f'data/raw/{id_:03d}.json')
+    if not path.is_file():
+        print(f'  Saving Tournament {id_}')
+        data = conn.get_draws_by_tournament(id_)
+        with path.open('w') as f:
             json.dump(data, f, indent=2)
