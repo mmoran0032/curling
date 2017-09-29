@@ -2,4 +2,3 @@
 .coverage
 credentials.json
 data/*
-asides/*
